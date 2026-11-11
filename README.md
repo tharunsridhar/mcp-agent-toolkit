@@ -64,3 +64,5 @@ python -m pytest test_mcp.py -v
 This spawns the real `mcp_server.py` subprocess and drives it through `MCPSession` -
 discovery, tool calls, resource reads, and the prompt template - with no Groq call at all,
 so it needs no API key and no network.
+
+<!-- last updated: 2026-11-11 -->
